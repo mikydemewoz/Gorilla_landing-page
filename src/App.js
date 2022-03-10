@@ -17,17 +17,17 @@ function App() {
     <div className="App">
         <div class="bg-godzilla bg-no-repeat bg-center bg-cover h-screen w-full">
           <nav>
-            <ul class="flex mx-20 pt-5 align-center">
+            <ul class="flex mx-auto justify-center pt-5">
               <li class="mr-20 group">
-                <a class=" link text-white" href="#">Movies</a>
+                <a class=" link text-white text-lg" href="#">Movies</a>
                 <div class="line w-0 h-1 bg-blue-700 rounded-full"></div>
               </li>
               <li class="mr-20">
-                <a class="link text-white" href="#">Tv Shows</a>
+                <a class="link text-white text-lg" href="#">Tv Shows</a>
                 <div class="line w-0 h-1 bg-blue-700 rounded-full"></div>
               </li>
               <li class="mr-20">
-                <a class="link text-white" href="#">Documentaries</a>
+                <a class="link text-white text-lg" href="#">Documentaries</a>
                 <div class="line w-0 h-1 bg-blue-700 rounded-full"></div>
               </li>
               <li class="mr-48">
@@ -40,16 +40,16 @@ function App() {
                 <a href="#"><img src={Group2} class="w-4 h-4" /></a>
               </li>
               <li class="mr-10 self-center">
-                <a class="link text-white" href="#">Sign Up</a>
+                <a class="link text-white text-lg" href="#">Sign Up</a>
                 <div class="line w-0 h-1 bg-blue-700 rounded-full"></div>
               </li>
             </ul>
           </nav>
           
-          <div>
+          <div class="mt-20 justify-center">
             <h1 class="text-7xl font-bold mt-4 ml-10 text-white">GODZILLA</h1>
             <h1 class="text-3xl ml-11 font-medium text-white">KING <span class="font-thin">OF THE </span>MONSTER</h1>
-            <p class="w-4/12 font-thin text-xs ml-11 mt-4 opacity-90 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            <p class="w-4/12 font-thin text-base ml-11 mt-4 opacity-90 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
             It has survived not only five centuries, but also the leap into electronic typesetting,</p>
@@ -72,6 +72,7 @@ function App() {
               <img class="cursor-pointer w-56 h-26 my-4 mr-4 transform hover:scale-110 hover:transition duration-500" src={img2} alt="img2" />
               <img class="cursor-pointer w-56 h-26 my-4  mr-4 transform hover:scale-110 hover:transition duration-500" src={img3} alt="img3" />
               <img class="cursor-pointer w-56 h-26 my-4 mr-4 transform hover:scale-110 hover:transition duration-500" src={img4} alt="img4" />
+              <img class="cursor-pointer w-56 h-26 my-4 mr-4 transform hover:scale-110 hover:transition duration-500" src={img5} alt="img4" />
             </div>
           </div>
         </div>
